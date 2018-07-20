@@ -1,4 +1,4 @@
 This is another file
-Created just for me
+Created for everyone!
 By me
 No one else
