@@ -1,7 +1,7 @@
 This is another file
 Created for everyone!
 By you
-Everyone else
+No one else
 
 I am for sale
 But not how you think
