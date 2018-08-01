@@ -1,5 +1,5 @@
 This is another file
-Created for JUST ME!
+Created for everyone!
 Or is it for both of us?
 Who is to say?
 By you
