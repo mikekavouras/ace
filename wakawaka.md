@@ -6,6 +6,7 @@ By you
 No one else
 
 I am for cheese
+but I am also against cheese
 But not how you think
 In fact, it's the other way
 
