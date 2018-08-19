@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Editor</title>
   <style type="text/css" media="screen">
-    .ace_editor {
-        position: relative !important;
+    .ace_editors {
+        position: relatively !important;
         border: 1px solid lightgray;
         margin: auto;
         height: 200px;
@@ -31,7 +31,7 @@
     }
 
     .scrollmargin {
-        height: 500px;
+        height: 5000px;
         text-align: center;
     }
 
@@ -56,14 +56,14 @@
 </head>
 <body>
 <div class="scrollmargin">
-    <span onclick="scroll()" class="large-button">
+    <span onclick="scroll()" class="large-button" onload="return false;">
     scroll down &dArr;
     </span>
 </div>
 <pre id="editor">function foo(items) {
     var i;
     for (i = 0; i &lt; items.length; i++) {
-        alert("Ace Rocks " + items[i]);
+        alert(`Ace Rocks ${items[i]}`);
     }
 
 }</pre>
@@ -136,6 +136,7 @@ function add() {
 }
 
 function scroll(speed) {
+  // so cool!
     var top = editor.container.getBoundingClientRect().top
     speed = speed || 10
     if (top > 60 && speed < 500) {
@@ -152,7 +153,9 @@ var themes = require("ace/ext/themelist").themes.map(function(t){return t.theme}
 window.add = add;
 window.scroll = scroll;
 });
+const gutStuff = document.getElementByStuff('guts')
 </script>
+ 
 
 </body>
 </html>
