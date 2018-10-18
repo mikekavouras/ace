@@ -8,7 +8,7 @@ class Cyclist extends Swimmer
         parent::__construct($name, $wetsuit);
         $this->bicycle($bicycle);
     }
-    public function bicycle(string $bicycle = null): string
+    private function bicycle(string $bicycle = null): string
     {
         return is_null($bicycle) ? $this->bicycle : $this->bicycle = $bicycle;
     }
